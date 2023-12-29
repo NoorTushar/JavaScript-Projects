@@ -21,3 +21,40 @@ ul,
 li {
   list-style: none;
 }
+body {
+  font-family: sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+#counterValue {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 48px;
+}
+#increment,
+#decrement {
+  padding: 10px 20px;
+  cursor: pointer;
+  border: none;
+  border-radius: 7px;
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  -ms-border-radius: 7px;
+  -o-border-radius: 7px;
+  font-weight: 500;
+}
+
+#increment {
+  background-color: rgb(138, 198, 48);
+}
+#decrement {
+  background-color: rgb(250, 63, 63);
+  color: #fff;
+}
+#increment:hover,
+#decrement:hover {
+  filter: opacity(0.85);
+  -webkit-filter: opacity(0.85);
+}
